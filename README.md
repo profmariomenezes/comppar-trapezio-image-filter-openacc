@@ -1,6 +1,6 @@
 # Atividade OpenACC - Reimplementação
 
-Nesta atividade você deverá escolher duas tarefas realizadas com **OpenMP** ou **PThreads** e reimplementá-las, agora com **OpenACC**.
+Nesta atividade você deverá reimplementar a atividade **Atividade - Lab 04 - Programação OpenMP** e reimplementá-la, agora com **OpenACC**.
 
 No arquivo `openacc_files.zip` tem exemplos de como usar o OpenACC de modo eficiente, lidando com movimentação de dados entre a placa e a memória principal; você deve estudar e rodar cada um para entender como funciona.
 
