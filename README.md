@@ -29,7 +29,16 @@ Faça um programa de multiplicação de matrizes. Fique atento a um bom uso de c
 
 Você deve gerar ou buscar algumas imagens sintéticas de tamanho 1048x1048, 4096x4096; pelo menos 3 imagens de cada tamanho. As imagens devem ser em nível de cinza (pode pegar uma colorida e transformar para nível de cinza); você também pode gerar matrizes com números aleatórios entre 0 e 255 e preencher essas 6 matrizes.
 
-Depois você vai utilizar os seguintes kernels para fazer a aplicação nessas matrizes: 5x5, 11x11 e 33x33.
+Depois você vai utilizar os seguintes kernels para fazer a aplicação nessas matrizes: 5x5, 11x11 e 33x33. Todos os elementos dos kernels tem valor 1, como ilustrado para o 5x5.
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+| 1 | 1 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 1 |
+
 
 Esses kernels são aplicados em todos os elementos das matrizes, criando uma **nova** matriz resultado. Essa matriz resultado, para essa nossa atividade, terá um tamanho menor do que a original. Esse processo é conhecido como *convolução* é amplamente utilizado em redes neurais convolucionais.
 
